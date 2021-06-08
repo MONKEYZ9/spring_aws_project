@@ -1,0 +1,2 @@
+com/lsm/spring/aws/Application.java
+ com.lsm.spring.aws.Application

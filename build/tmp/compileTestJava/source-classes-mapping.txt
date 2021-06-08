@@ -1,0 +1,4 @@
+com/lsm/spring/aws/web/HelloControllerTest.java
+ com.lsm.spring.aws.web.HelloControllerTest
+com/lsm/spring/aws/Test.java
+ com.lsm.spring.aws.Test
