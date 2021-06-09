@@ -1,6 +1,7 @@
 package com.lsm.spring.aws.domain.posts;
 
 
+import com.lsm.spring.aws.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,7 +23,7 @@ import javax.persistence.*;
 @NoArgsConstructor // 기본생성자를 자동 추가하는 효과를 낸다
 @Entity
 
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id // 프라이머리키
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 생설규칙을 나타낸다
